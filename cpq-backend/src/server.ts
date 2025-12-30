@@ -16,7 +16,7 @@ app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
   
   // Cron job to ping server every 12 minutes to prevent sleep on Render
-  cron.schedule('*/1 * * * *', async () => {
+  cron.schedule('*/12 * * * *', async () => {
     try {
       const backendUrl = process.env.BACKEND_URL || `http://localhost:${PORT}`;
       const response = await fetch(`${backendUrl}/api/ping`);
