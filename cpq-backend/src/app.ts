@@ -35,6 +35,11 @@ app.get("/api/protected", checkJwt, (req, res) => {
     res.send({ message: 'You accessed a protected route!' });
 });
 
+// Ping endpoint to keep server awake
+app.get("/api/ping", (req, res) => {
+    res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 // Initialize database
 sequelize
   .authenticate()
