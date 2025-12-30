@@ -1,0 +1,1 @@
+export type LicenseType = "no-license" | "has-license-no-issues" | "has-license-needs-additional" | "";

@@ -1,0 +1,36 @@
+export default interface Customer {
+    id: number;
+    name: string;
+    ancillaryName: string;
+    email: string;
+    phone: string;
+    website: string;
+    socialHandles: [{ platform: string; link: string }];
+    industry: string;
+    typeOfCustomer: string;
+    gstNumber: string;
+    salesRep: string;
+    billingStreetAddress: string;
+    billingAddressLine2: string;
+    billingPin: string;
+    billingCity: string;
+    billingDistrict: string;
+    billingState: string;
+    billingCountry: string;
+    sameAsBilling: boolean;
+    wpcSameAsBilling: boolean;
+    shippingStreetAddress: string;
+    shippingAddressLine2: string;
+    shippingPin: string;
+    shippingCity: string;
+    shippingDistrict: string;
+    shippingState: string;
+    shippingCountry: string;
+    wpcStreetAddress: string;
+    wpcAddressLine2: string;
+    wpcPin: string;
+    wpcCity: string;
+    wpcDistrict: string;
+    wpcState: string;
+    wpcCountry: string;
+  }

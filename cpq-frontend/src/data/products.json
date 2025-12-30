@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Product 1",
+      "sku": "SKU001",
+      "category": "Software",
+      "price": 100,
+      "stockQuantity": 50
+    },
+    {
+      "name": "Product 2",
+      "sku": "SKU002",
+      "category": "Hardware",
+      "price": 200,
+      "stockQuantity": 30
+    },
+    {
+      "name": "Product 3",
+      "sku": "SKU003",
+      "category": "Software",
+      "price": 150,
+      "stockQuantity": 20
+    },
+    {
+      "name": "Product 4",
+      "sku": "SKU004",
+      "category": "Hardware",
+      "price": 250,
+      "stockQuantity": 10
+    }
+  ]
+  
